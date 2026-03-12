@@ -5,37 +5,35 @@ import './index.css';
 import Home from './Home.js';
 import Contact from './contact.js';
 import About from './About.js';
-import Gallary from './Gallary.js';
 import Services from './Services.js';
+import Masterapp from './mastergallery.js';
+import Masterapps from  './masterservices.js'
 
 import Footer from "./Footer";
-
-
 import Nav from './navbar';
 
-
-import { BrowserRouter as Routers,Routes,Route } from "react-router-dom";
+import { HashRouter as Routers,Routes,Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
 
-    <Routers>
-        <Nav></Nav>
-        
-        <Routes>
-            <Route path="/" element={<Home/>}></Route>
-            <Route path="/about" element={<About/>}></Route>
-            <Route path="/contact" element={ <Contact/>}></Route>
-            <Route path="/Services" element={ <Services/>}></Route>
-            <Route path="/Gallary" element={ <Gallary/>}></Route>
-        </Routes>
+<Routers>
 
-        <Footer/>
-    </Routers>
+<Nav/>
 
-    
-  
+<Routes>
+
+<Route path="/" element={<Home/>}/>
+<Route path="/about" element={<About/>}/>
+<Route path="/contact" element={<Contact/>}/>
+<Route path="/Services" element={<Masterapps/>}/>
+<Route path="/Gallary" element={<Masterapp/>}/>
+
+</Routes>
+
+<Footer/>
+
+</Routers>
+
 );
-
-
-
