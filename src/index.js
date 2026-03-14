@@ -5,7 +5,7 @@ import './index.css';
 import Home from './Home.js';
 import Contact from './contact.js';
 import About from './About.js';
-import Services from './Services.js';
+
 import Masterapp from './mastergallery.js';
 import Masterapps from  './masterservices.js'
 

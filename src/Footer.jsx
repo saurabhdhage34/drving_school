@@ -46,11 +46,7 @@ function Footer() {
             <p>📞 +91 9876543210</p>
             <p>📧 drivemaster@gmail.com</p>
 
-            <div>
-              <a href="#" className="text-light me-3">🌐 Facebook</a>
-              <a href="#" className="text-light me-3">📸 Instagram</a>
-              <a href="#" className="text-light">▶ YouTube</a>
-            </div>
+            
 
           </div>
 
