@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/drving_school/static/css/main.cdd1c6d5.css",
-    "main.js": "/drving_school/static/js/main.6e14308e.js",
+    "main.js": "/drving_school/static/js/main.ad7c2621.js",
     "index.html": "/drving_school/index.html",
     "main.cdd1c6d5.css.map": "/drving_school/static/css/main.cdd1c6d5.css.map",
-    "main.6e14308e.js.map": "/drving_school/static/js/main.6e14308e.js.map"
+    "main.ad7c2621.js.map": "/drving_school/static/js/main.ad7c2621.js.map"
   },
   "entrypoints": [
     "static/css/main.cdd1c6d5.css",
-    "static/js/main.6e14308e.js"
+    "static/js/main.ad7c2621.js"
   ]
 }
