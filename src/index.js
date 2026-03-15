@@ -11,6 +11,8 @@ import Masterapps from  './masterservices.js'
 
 import Footer from "./Footer";
 import Nav from './navbar';
+import Courses from './Courses';
+import Trainers from './Trainers';
 
 import { HashRouter as Routers,Routes,Route } from "react-router-dom";
 
@@ -29,7 +31,8 @@ root.render(
 <Route path="/contact" element={<Contact/>}/>
 <Route path="/Services" element={<Masterapps/>}/>
 <Route path="/Gallary" element={<Masterapp/>}/>
-
+<Route path="/courses" element={<Courses />} />
+<Route path="/trainers" element={<Trainers />} />
 </Routes>
 
 <Footer/>
