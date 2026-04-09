@@ -30,6 +30,7 @@ function Home() {
         <h1>Welcome To Driving School</h1>
         <p>Learn driving with professional trainers</p>
         <Link to="/about" className="btn btn-warning">Start Learning</Link>
+       
       </div>
     </div>
 

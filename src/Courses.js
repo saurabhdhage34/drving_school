@@ -19,6 +19,7 @@ function Courses() {
                 <h5 className="card-title">{course.title}</h5>
                 <p className="card-text text-muted">Duration: {course.duration}</p>
                 <h4 className="text-primary">{course.price}</h4>
+                
                 <button className="btn btn-warning w-100">Enroll Now</button>
               </div>
             </div>

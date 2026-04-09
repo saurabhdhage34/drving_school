@@ -43,13 +43,25 @@ function Nav()
         <Link className="nav-link text-light fw-semibold" to="/Services">Services</Link>
       </li>
 
-    </ul>
+      <Link to="/admission">
+          <button className="btn-lg btn-sm btn-success">Admission</button>
+      </Link>
 
+      <Link to="/admission-list">
+  <button className="btn-lg btn-sm btn-warning">Admission List</button>
+</Link>
+
+      
+    </ul>
+    
+     
   </div>
 
   </div>
 
 </nav>
+
+
 
         </>
     )
